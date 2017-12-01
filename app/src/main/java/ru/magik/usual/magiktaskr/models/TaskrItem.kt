@@ -7,6 +7,7 @@ import java.io.FileDescriptor
  */
 data class TaskrItem(
         val name: String,
+        val priority: Int = 0,
         val description: String?,
-        val photoId: String?
+        val iconId: String?
 )
